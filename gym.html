@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>PREVIEW GYM | Kinetic Obsidian Fitness</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@700;800;900&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-surface": "#ffffff",
+              "surface-container-lowest": "#000000",
+              "secondary-dim": "#d6d4d3",
+              "tertiary-dim": "#e51a22",
+              "secondary-container": "#474746",
+              "primary-container": "#cafd00",
+              "on-tertiary-fixed": "#3a0002",
+              "inverse-surface": "#fcf8f8",
+              "secondary-fixed": "#e5e2e1",
+              "on-tertiary": "#4a0003",
+              "on-secondary-fixed": "#403f3f",
+              "background": "#0e0e0e",
+              "secondary": "#e5e2e1",
+              "on-primary-fixed": "#3a4a00",
+              "outline-variant": "#494847",
+              "tertiary": "#ff7166",
+              "error-container": "#b92902",
+              "inverse-on-surface": "#565554",
+              "on-primary-container": "#4a5e00",
+              "on-primary-fixed-variant": "#526900",
+              "surface-bright": "#2c2c2c",
+              "primary": "#f3ffca",
+              "on-error": "#450900",
+              "on-surface-variant": "#adaaaa",
+              "on-background": "#ffffff",
+              "surface": "#0e0e0e",
+              "on-tertiary-container": "#000000",
+              "surface-variant": "#262626",
+              "primary-fixed": "#cafd00",
+              "secondary-fixed-dim": "#d6d4d3",
+              "on-tertiary-fixed-variant": "#7a0008",
+              "inverse-primary": "#516700",
+              "surface-dim": "#0e0e0e",
+              "surface-tint": "#f3ffca",
+              "primary-fixed-dim": "#beee00",
+              "error-dim": "#d53d18",
+              "tertiary-container": "#f5282b",
+              "tertiary-fixed-dim": "#ff7b70",
+              "outline": "#777575",
+              "surface-container": "#1a1919",
+              "primary-dim": "#beee00",
+              "on-secondary": "#525151",
+              "surface-container-highest": "#262626",
+              "surface-container-low": "#131313",
+              "on-error-container": "#ffd2c8",
+              "tertiary-fixed": "#ff9287",
+              "on-secondary-container": "#d2d0cf",
+              "on-primary": "#516700",
+              "error": "#ff7351",
+              "surface-container-high": "#201f1f",
+              "on-secondary-fixed-variant": "#5c5b5b"
+            },
+            fontFamily: {
+              "headline": ["Epilogue"],
+              "body": ["Manrope"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-nav {
+        background: rgba(14, 14, 14, 0.8);
+        backdrop-filter: blur(20px);
+      }
+      .text-glow {
+        text-shadow: 0 0 20px rgba(243, 255, 202, 0.3);
+      }
+      .no-line-rule { border: none !important; }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary overflow-x-hidden">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#0e0e0e]/80 backdrop-blur-xl dark:bg-[#0e0e0e]/80 no-line-rule tonal-shift-only flat no shadows">
+<div class="flex justify-between items-center w-full px-8 py-6 max-w-[1920px] mx-auto">
+<div class="text-2xl font-black italic tracking-tighter text-[#f3ffca] font-['Epilogue'] uppercase">PREVIEW GYM</div>
+<!-- Desktop Links -->
+<div class="hidden md:flex items-center gap-8">
+<a class="font-['Epilogue'] uppercase tracking-tighter font-black text-[#f3ffca] border-b-2 border-[#f3ffca] pb-1 hover:scale-105 transition-all duration-300" href="#">Home</a>
+<a class="font-['Epilogue'] uppercase tracking-tighter font-black text-white/70 hover:text-white transition-colors hover:scale-105 transition-all duration-300" href="#">Services</a>
+<a class="font-['Epilogue'] uppercase tracking-tighter font-black text-white/70 hover:text-white transition-colors hover:scale-105 transition-all duration-300" href="#">Membership</a>
+<a class="font-['Epilogue'] uppercase tracking-tighter font-black text-white/70 hover:text-white transition-colors hover:scale-105 transition-all duration-300" href="#">Gallery</a>
+<a class="font-['Epilogue'] uppercase tracking-tighter font-black text-white/70 hover:text-white transition-colors hover:scale-105 transition-all duration-300" href="#">Contact</a>
+</div>
+<button class="bg-primary text-on-primary px-8 py-3 rounded-xl font-headline font-black uppercase tracking-tighter hover:scale-105 active:scale-95 transition-all duration-300">
+                Join Now
+            </button>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative min-h-screen flex items-center justify-start px-8 pt-20 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="High-intensity gym environment" class="w-full h-full object-cover opacity-40 scale-105" data-alt="Intense low light gym interior with weights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBI8WRl0HKJ6pRzw22eP6aTC8Bl1uRpvmO79lLz5RhYgTL7_RIXC6hdlptikVsPG4eeaDBDB-9vNYwIM4DzkWZkpwqXpNAJw6rOyEDuj1IqS-AYi0Mp1rJEVvkWVgr31uXmfbugkuBGNDpm2nLxCrzo36IOuhHk3nyXPrb0Ou68N61Hyp-KrpPAsgYiN_je7pI-kfs4CsmHPmaK2JtT-HjPi-P5w2UjFglasQpF698LG7AWdqTaJjX4YvYQu8Dyx2MUrlocbOHjD6k"/>
+<div class="absolute inset-0 bg-gradient-to-r from-background via-background/60 to-transparent"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-4xl">
+<h1 class="font-headline text-6xl md:text-9xl font-black tracking-tighter leading-[0.85] text-on-surface mb-8 uppercase italic">
+                Build <span class="text-primary text-glow">Strength</span>.<br/>
+                Stay Fit.<br/>
+                Feel <span class="text-tertiary">Confident</span>.
+            </h1>
+<p class="text-xl md:text-2xl text-on-surface-variant max-w-xl mb-12 font-medium leading-relaxed">
+                Join Preview Gym and take your fitness to the next level with elite coaching and world-class equipment.
+            </p>
+<div class="flex flex-col sm:flex-row gap-6">
+<button class="bg-primary text-on-primary px-10 py-5 rounded-xl font-headline font-black text-xl uppercase tracking-tighter hover:scale-105 transition-transform flex items-center justify-center gap-3">
+                    Join Now
+                    <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+<button class="border-2 border-outline-variant text-on-surface px-10 py-5 rounded-xl font-headline font-black text-xl uppercase tracking-tighter hover:bg-surface-container-highest transition-colors flex items-center justify-center gap-3">
+                    Book Free Trial
+                </button>
+</div>
+</div>
+</header>
+<!-- About Section -->
+<section class="py-32 px-8 bg-surface-container-low relative overflow-hidden">
+<div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+<div class="relative">
+<div class="absolute -top-10 -left-10 w-40 h-40 bg-primary/20 rounded-full blur-3xl"></div>
+<h2 class="font-headline text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none mb-8">
+                    More Than Just <br/><span class="text-primary">A Workspace For Muscles.</span>
+</h2>
+<p class="text-lg text-on-surface-variant leading-relaxed mb-8">
+                    At PREVIEW GYM, we treat physical excellence as an art form. Our obsidian-themed facility provides the focused atmosphere you need to carve out your best self. From raw powerlifting to technical cardio, we provide the tools, the tech, and the community to ensure you never plateau.
+                </p>
+<div class="flex items-center gap-6">
+<div class="text-center">
+<div class="text-4xl font-headline font-black text-primary italic">15+</div>
+<div class="text-xs uppercase tracking-widest text-on-surface-variant">Expert Coaches</div>
+</div>
+<div class="h-12 w-px bg-outline-variant"></div>
+<div class="text-center">
+<div class="text-4xl font-headline font-black text-primary italic">24/7</div>
+<div class="text-xs uppercase tracking-widest text-on-surface-variant">Access</div>
+</div>
+<div class="h-12 w-px bg-outline-variant"></div>
+<div class="text-center">
+<div class="text-4xl font-headline font-black text-primary italic">500+</div>
+<div class="text-xs uppercase tracking-widest text-on-surface-variant">Success Stories</div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<img alt="Training" class="rounded-lg w-full h-80 object-cover mt-12" data-alt="Close up of weight training intensity" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAvPVfju3lM9VsCOTjJX03TxvggR2wdDVj20VD9ckXukpM0PdsaSo70w7IWobuQ8ozykwWfkqA8RQ0saBfN2TcscRtpFy9d9IP7FZKmbM4wT92vXhrdlVJESdlFz3dztcqa72KoKC6QyVkIMv_bub7GurBkRyJC9uzFvgA6WkZ4Wc6v4q0dM3DEyKPQiZqu_MSdqsju_Gg8q-ShjRwUYro0YjN6yeWlOBcEz2mOrqVkO0hwlnUiQxRs6OU7vorYdudVUqjfsrhD4M"/>
+<img alt="Gym" class="rounded-lg w-full h-80 object-cover" data-alt="Modern high end gym equipment layout" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMdrKJVCDljIhd9UzDOr0B8K8fZryzwbWPMF1WPkIdDZ_Fs4dumivk5mhqbPd2BmdT5sLei_32RvB0X8GjKznkW0u4-Bc6TsZLpgiswwX7DQmHh_0_h-t2MAE9j0JVfHVvjnXOM5YEFOM33cFhuWMvWjqhTb31e5eTj79gqpBkY54dysCiw9YTl3tyA8gq2WD3F9wGj_y0CgprwH-M1z-MB51pJBdpgR6Kz_N_VHd_S1_SUcWLwTaKBTEpjbfS4iwsVXeO0qznGr0"/>
+</div>
+</div>
+</section>
+<!-- Services Section (Bento Grid) -->
+<section class="py-32 px-8 bg-background">
+<div class="max-w-7xl mx-auto">
+<div class="mb-20 text-center md:text-left">
+<h2 class="font-headline text-5xl md:text-8xl font-black uppercase tracking-tighter leading-none">Our <span class="text-primary">Disciplines</span></h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-[800px]">
+<!-- Weight Training -->
+<div class="md:col-span-8 group relative bg-surface-container-high rounded-lg overflow-hidden flex flex-col justify-end p-8 transition-all duration-500 hover:scale-[0.99]">
+<img alt="Weight Training" class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:scale-110 transition-transform duration-700" data-alt="A person lifting a heavy barbell" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7OdS5h92gnYzIXTt0NjZKNqZawvj_79ma7fLNKFwRWYos2gW5ynLdMX9kXlpXmW6NSpEpbITsjZKoxLksDckbotwK7pDy5u-RegFxIUKLTLaZfFgL8eKX4fawgoCCvzBuRl4BZBh-7N018Dzui-zYIQqNkcroytr6RBZgkHZpff_t6lOtu6Csl1NHw2dP8cr0LQxptgQO5wN186q_69pOyjViyNvKMJa0M2mElpa9QtdADu6GbFROxzJfgmSqg3lzqf_CLHK6F4o"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
+<div class="relative z-10">
+<span class="material-symbols-outlined text-primary text-4xl mb-4" data-weight="fill">fitness_center</span>
+<h3 class="font-headline text-4xl font-black uppercase italic mb-2">Weight Training</h3>
+<p class="text-on-surface-variant max-w-md">Forge elite strength with our competition-grade free weights and precision machines.</p>
+</div>
+</div>
+<!-- Personal Training -->
+<div class="md:col-span-4 bg-surface-container-highest rounded-lg p-8 flex flex-col justify-center border border-white/5">
+<span class="material-symbols-outlined text-tertiary text-5xl mb-6">person_celebrate</span>
+<h3 class="font-headline text-3xl font-black uppercase italic mb-4">Personal Training</h3>
+<p class="text-on-surface-variant mb-8">One-on-one sessions tailored to your unique biology and performance goals.</p>
+<a class="text-primary font-bold uppercase tracking-widest text-sm flex items-center gap-2 group" href="#">
+                        Learn More <span class="material-symbols-outlined group-hover:translate-x-2 transition-transform">east</span>
+</a>
+</div>
+<!-- Cardio -->
+<div class="md:col-span-4 bg-surface-container rounded-lg p-8 flex flex-col justify-between overflow-hidden relative group">
+<div class="relative z-10">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">directions_run</span>
+<h3 class="font-headline text-3xl font-black uppercase italic mb-2">Cardio Zone</h3>
+<p class="text-on-surface-variant">High-performance treadmills and HIIT zones to boost endurance.</p>
+</div>
+<div class="absolute -right-10 -bottom-10 opacity-10 group-hover:rotate-12 transition-transform duration-700">
+<span class="material-symbols-outlined text-[200px]" style="font-variation-settings: 'FILL' 1;">bolt</span>
+</div>
+</div>
+<!-- Group Classes -->
+<div class="md:col-span-8 group relative bg-surface-container-high rounded-lg overflow-hidden flex items-center p-8">
+<img alt="Group Classes" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:scale-105 transition-transform duration-700" data-alt="A group of people in a synchronized workout class" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQb_Dni8ZUwnuHnIvWpP6__g73PH3ZRO4Fb7PxJ9wVghileMaAVki4qM2kd9KdwR_CFXvYY2HmmMjlptXmbf10GSoUTS3eExUAQ4c23aUGcPLf7tHfMb3gFb4hCT3I6uR37spLCSv9TmgNEjnnR7JvMnCM0IJgjxxOzA2ckKLwIllMPCt6U55j2GycrJzUs4tOrJhgGUSuHvLGuJMRL_iuIMr2WO1ymS8LDIwT9eh7fHmsLFT7QM-cIw0tRsWXYacYI3rsMpeDl3w"/>
+<div class="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-transparent"></div>
+<div class="relative z-10 max-w-sm">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">groups</span>
+<h3 class="font-headline text-4xl font-black uppercase italic mb-2">Group Classes</h3>
+<p class="text-on-surface-variant">Join the energy of our community-driven strength and yoga sessions.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us -->
+<section class="py-32 px-8 bg-surface-container-low">
+<div class="max-w-7xl mx-auto">
+<div class="grid md:grid-cols-4 gap-8">
+<div class="p-8 rounded-lg bg-surface-container-highest/50 flex flex-col items-center text-center">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary text-3xl">precision_manufacturing</span>
+</div>
+<h4 class="font-headline text-xl font-bold uppercase mb-3">Modern equipment</h4>
+<p class="text-sm text-on-surface-variant">Latest Hammer Strength and Life Fitness technology.</p>
+</div>
+<div class="p-8 rounded-lg bg-surface-container-highest/50 flex flex-col items-center text-center">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary text-3xl">verified</span>
+</div>
+<h4 class="font-headline text-xl font-bold uppercase mb-3">Certified trainers</h4>
+<p class="text-sm text-on-surface-variant">Elite coaching staff with medical and athletic backgrounds.</p>
+</div>
+<div class="p-8 rounded-lg bg-surface-container-highest/50 flex flex-col items-center text-center">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary text-3xl">sanitizer</span>
+</div>
+<h4 class="font-headline text-xl font-bold uppercase mb-3">Clean &amp; Safe</h4>
+<p class="text-sm text-on-surface-variant">Medical-grade air filtration and 24/7 sanitation crew.</p>
+</div>
+<div class="p-8 rounded-lg bg-surface-container-highest/50 flex flex-col items-center text-center">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary text-3xl">favorite</span>
+</div>
+<h4 class="font-headline text-xl font-bold uppercase mb-3">Supportive community</h4>
+<p class="text-sm text-on-surface-variant">A curated network of motivated high-achievers.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Membership Plans -->
+<!-- Gallery Section -->
+<section class="py-32 bg-surface-container-low overflow-hidden">
+<div class="max-w-[1920px] mx-auto px-8">
+<h2 class="font-headline text-5xl md:text-7xl font-black uppercase tracking-tighter mb-16 italic">Inside the <span class="text-primary">Obsidian</span></h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="aspect-square rounded-lg overflow-hidden group">
+<img alt="Gym Interior" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 hover:scale-110" data-alt="A cinematic shot of organized dumbbells" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0KcWeDFxx45hCSVIBycToRwyQ93hcVzeeNJThFPViHFdIgF3mJUtSCA70R2OsfqHb7GzQu2hTJbHyDff-Fo9F4KGyA9RKtG-gZoSFOM3jTUznA63-Dss5nO9MJBG7Uip50riSISBIrO_u_W7KqTHM7VZnL-ErTx2Lcw7-ojNYs8Z0nYglUGPRpac24MQLBFhMpkA-BojYezyC2pJTWp-q2zTIrMswOTyjeOgf_J0Ga0GMnZIGTaKVvdcnUsIurTdd1hqThfkhFoM"/>
+</div>
+<div class="aspect-square rounded-lg overflow-hidden group">
+<img alt="Cardio Area" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 hover:scale-110" data-alt="Row of modern cardio machines in dark gym" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAm6hlcNy_bFm7zaeCVwFvP3h2aL8tjqEfgvg3HEq5W3c1XyNfnJvTRpDsL5uwk3wGiBQ5FDh_DypVg0eUwXOyas_xdhNErlgbdx5lNXMwJfum6_v_BA1BAQrSS79sQNqgsCc9JFIlkLTg9rN-K40fBrleJEHzcBlr_9BLj28v74lh9RyBJX76vqsLNtGMexqWCqqCVXk-EhVDvwVluxDMdMeIkPTfFtYQprKSE0iHBftrdPsT44qaLO20JoVYTYASv6A_xOUj6mBM"/>
+</div>
+<div class="aspect-square rounded-lg overflow-hidden group">
+<img alt="Weight Rack" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 hover:scale-110" data-alt="Close up of olympic barbell plates" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVHPutqA08dqfsQRC7JGyABybdxz3-XA6C1gte6P5dyIKbI2zm25eU0txOCSBieSBsFLgpcnSaSnnf_ZGFjBZWYCLUnwodbsz_HM8obdygSrVkqAEKcW5FpMtuQgfF7GVPwIsEY3Vyj-JnlyeODd0h--fn76dOP5jeSuuJOgoDS1w-YrmRel76T7Qq1g4saPc2PQcOYoY9d5S-mPgom_U1wvUjJbTf3lmJRPLTRiOlU5CM5EzpGzkZxPsTOcq7n2vyR_qFVvR6TFw"/>
+</div>
+<div class="aspect-square rounded-lg overflow-hidden group">
+<img alt="Yoga Class" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 hover:scale-110" data-alt="Zen yoga studio with low warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_agVhS34qDKK_u7MPMucPWW4kMU_6guEiFVT8TJTZbf8k9eb9f9sE2xnkZMewZ2XPg3ccSPm8e5eO_y_gSUQhZ8WVvQWkD6ftN6RRztg3P8vlkO372x8DyFybAlb6MHDhbdE2hb5Am5Csxm2EBFcPpqRY9bWJqVmgwkSe81wyCc46vJjq3daL0gVFIU9D-sBCo5ZSk6syj_trZb_P-vPBhsK_jUITFcNb66CE5ZKSWCgbwigeutzjeBlKbBNpmYmN58sROUR28gs"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-32 px-8 bg-background relative">
+<div class="max-w-7xl mx-auto">
+<h2 class="font-headline text-5xl font-black uppercase tracking-tighter mb-20 text-center italic">Warrior <span class="text-primary">Talk</span></h2>
+<div class="grid md:grid-cols-3 gap-12">
+<div class="bg-surface-container p-8 rounded-lg relative">
+<div class="flex text-primary mb-6">
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+</div>
+<p class="text-lg italic text-on-surface mb-8">"The atmosphere here is unmatched. It’s dark, focused, and professional. I’ve seen more progress in 3 months here than 3 years elsewhere."</p>
+<div class="flex items-center gap-4">
+<img alt="User" class="w-12 h-12 rounded-full object-cover" data-alt="Male portrait, smiling" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqGoeNafEJNnbVwYjG8qHRJjRbbdHauR17CVD3mjzXpVP_erEgwwpxwXJ146p0BDgHkM3j-docYoH9H-5aeLTm0JIQc4nXNCp3LqtQteCl7UGunUWM1iY-ULOv-vS_1GxJ6yv7p-Z-FLNy5713BhMKGuh4a6ZwUOudXbYRORwzQXKiXVhTMu4TsC_n5414sVj1X0VmwmTNw8D3ANVsp2xguKjPJ6_tKSeJfCpI5puGvLIq0tY2Aee58LNspJsf9h9oD2YQpVk6Tls"/>
+<div>
+<div class="font-bold">Marcus Thorne</div>
+<div class="text-xs text-on-surface-variant uppercase tracking-widest">Powerlifter</div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container p-8 rounded-lg relative">
+<div class="flex text-primary mb-6">
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+</div>
+<p class="text-lg italic text-on-surface mb-8">"PREVIEW GYM is the elite standard. The equipment is always pristine and the community pushes you to be your absolute best."</p>
+<div class="flex items-center gap-4">
+<img alt="User" class="w-12 h-12 rounded-full object-cover" data-alt="Female portrait, athletic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuW1yiAYO3Tw0F2cen-uOr8rvp2qnakT9haXODHyq4p8bncQia55xQEGpYPl5wDle-XeXeIG-EeGwS4gHmmfkSC6HypdZGy8BDaf8MFnicESLb35ZqBI8sDd2G-7-y0wVDaIyTiAzp1b6sJXQVLQSzDu41evig3vMx94PEOP-iXq2U8LAS5Bgbjxw9_rnu28PeqGc3hPlT3_83aD4YXVqes3fAPRLwDdDBSFLYMxCMo1xQ5v9c8rFYFU80WvOOueYfk-cxWWAMgcA"/>
+<div>
+<div class="font-bold">Sarah Jenkins</div>
+<div class="text-xs text-on-surface-variant uppercase tracking-widest">Fitness Athlete</div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container p-8 rounded-lg relative">
+<div class="flex text-primary mb-6">
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+</div>
+<p class="text-lg italic text-on-surface mb-8">"Expert coaching and a clean facility. It's the first gym I've ever looked forward to visiting every single morning."</p>
+<div class="flex items-center gap-4">
+<img alt="User" class="w-12 h-12 rounded-full object-cover" data-alt="Male portrait, professional" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3QE-1lPL9tifkDeWUsHZFk2K4_qcUDtw0S4jB6AredrPC0upDxFoVFJ5xwYr2wauUwvZjXJ0Uo5Bgdka6W82p-pp5lbpAqJDpX8zSegsyByAxIMNfL02074LFNqcBaOg1JdKQPeXXSH_wL09nF3lFArDiNIqmkCB7uI4M7nd0LM0UYezp3YXk6t5cHZlMuID9hp84ZgS4XelRGRtthnVrRftGEu07Q854Xbwx7gKg4N2P52Af8ikvvFG5hnBBwbhfMt448m-K2QQ"/>
+<div>
+<div class="font-bold">David Chen</div>
+<div class="text-xs text-on-surface-variant uppercase tracking-widest">Corporate Exec</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact & Location -->
+<section class="py-32 px-8 bg-surface-container-low">
+<div class="max-w-7xl mx-auto">
+<div class="grid md:grid-cols-2 gap-20 items-center">
+<div>
+<h2 class="font-headline text-5xl md:text-7xl font-black uppercase tracking-tighter mb-8 leading-none">Find Your <span class="text-primary">Edge</span>.</h2>
+<div class="space-y-8 mb-12">
+<div class="flex items-center gap-6">
+<span class="material-symbols-outlined text-primary text-3xl">location_on</span>
+<div>
+<div class="text-on-surface-variant uppercase tracking-widest text-xs">Our Studio</div>
+<div class="text-xl font-bold">123 Kinetic Blvd, Los Angeles</div>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<span class="material-symbols-outlined text-primary text-3xl">call</span>
+<div>
+<div class="text-on-surface-variant uppercase tracking-widest text-xs">Phone</div>
+<div class="text-xl font-bold">+1 (555) 987-6543</div>
+</div>
+</div>
+</div>
+<a class="inline-flex items-center gap-4 bg-[#25D366] text-black px-8 py-5 rounded-full font-headline font-black uppercase tracking-tighter hover:scale-105 transition-transform" href="#"><svg class="w-6 h-6 fill-current" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg> Message us on WhatsApp</a>
+</div>
+<div class="relative h-[500px] rounded-lg overflow-hidden grayscale hover:grayscale-0 transition-all duration-700">
+<img alt="Location Map" class="w-full h-full object-cover" data-alt="Stylized map showing gym location" data-location="Los Angeles" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAC5Tk0LiQCfw2M311z5cV44bR-J74Sj_3Iw45Wgnt3l6yITMa2jF9wbJ2DpXhUrz605njnqI8B35ZCJWAx6_CY1rgVh3hnFAM_juXGEspNwLp_xMEqR04spkfMeQ7c1n7kUHmXkXvjOOvrJxG21Sz7IX4J4BkcCVlGTYmOpLtaFksTRfKQA5RHHgoUrdTliQ_4bXQ1qdunms8CzMrOAXY4ixPgJGK8agK0QiLBBICqMaXftdg3GvQmazORwx2OgjFxAb67Ftui5A0"/>
+<div class="absolute inset-0 bg-primary/10 mix-blend-overlay"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#000000] dark:bg-[#000000] w-full py-16 px-8 border-t border-[#262626] tonal-layering surface-container-lowest flat no shadows">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-[1440px] mx-auto font-['Manrope'] text-sm tracking-wide">
+<div class="flex flex-col">
+<div class="text-xl font-black text-[#f3ffca] mb-4">PREVIEW GYM</div>
+<p class="text-white/40 mb-6 max-w-xs">Forging excellence in the obsidian void. Elite equipment. Professional community.</p>
+</div>
+<div class="flex flex-col space-y-4">
+<div class="text-[#f3ffca] font-bold uppercase tracking-widest mb-2">Explore</div>
+<a class="text-white/40 hover:text-[#f3ffca] transition-colors hover:translate-x-1 transition-transform" href="#">Home</a>
+<a class="text-white/40 hover:text-[#f3ffca] transition-colors hover:translate-x-1 transition-transform" href="#">Services</a>
+<a class="text-white/40 hover:text-[#f3ffca] transition-colors hover:translate-x-1 transition-transform" href="#">Membership</a>
+<a class="text-white/40 hover:text-[#f3ffca] transition-colors hover:translate-x-1 transition-transform" href="#">Gallery</a>
+</div>
+<div class="flex flex-col space-y-4">
+<div class="text-[#f3ffca] font-bold uppercase tracking-widest mb-2">Resources</div>
+<a class="text-white/40 hover:text-[#f3ffca] transition-colors hover:translate-x-1 transition-transform" href="#">Privacy Policy</a>
+<a class="text-white/40 hover:text-[#f3ffca] transition-colors hover:translate-x-1 transition-transform" href="#">Terms of Service</a>
+<a class="text-white/40 hover:text-[#f3ffca] transition-colors hover:translate-x-1 transition-transform" href="#">FAQ</a>
+<a class="text-white/40 hover:text-[#f3ffca] transition-colors hover:translate-x-1 transition-transform" href="#">Careers</a>
+</div>
+<div class="flex flex-col">
+<div class="text-[#f3ffca] font-bold uppercase tracking-widest mb-6">Connect</div>
+<div class="flex gap-4">
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-[#f3ffca] hover:scale-110 transition-transform cursor-pointer">
+<span class="material-symbols-outlined">public</span>
+</div>
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-[#f3ffca] hover:scale-110 transition-transform cursor-pointer">
+<span class="material-symbols-outlined">alternate_email</span>
+</div>
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-[#f3ffca] hover:scale-110 transition-transform cursor-pointer">
+<span class="material-symbols-outlined">share</span>
+</div>
+</div>
+</div>
+</div>
+<div class="max-w-[1440px] mx-auto mt-16 pt-8 border-t border-white/5 text-center text-white/20 text-xs uppercase tracking-widest">
+            © 2024 PREVIEW GYM. KINETIC OBSIDIAN DESIGN.
+        </div>
+</footer>
+<!-- Floating Component (WhatsApp) -->
+<a class="fixed bottom-8 right-8 z-[100] w-16 h-16 bg-[#25D366] rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-transform" href="#"><svg class="w-8 h-8 fill-white" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg></a>
+</body></html>
